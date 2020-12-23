@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+</head>
+<body>
+    <h1>Chat Box</h1>
+    <form id = "msgForm">
+        <div class="form-element">
+            <label for="message">message</label>
+            <input type="text" name="message" id="message" placeholder = "Enter your Message" />
+        </div>
+     
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="msg-box">
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
